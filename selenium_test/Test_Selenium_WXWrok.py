@@ -73,6 +73,7 @@ class Test_Selenium():
         }
         self.driver.get(str)
         time.sleep(5)
+        '''添加cookie'''
         for k,v in cookie.items():
             self.driver.add_cookie({"name":k,"value":v})
         self.driver.get(str)
