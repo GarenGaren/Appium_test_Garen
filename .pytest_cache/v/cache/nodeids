@@ -1,0 +1,7 @@
+[
+  "selenium_test/Test_Selenium.py::Test_Selenium::test_KeyWord",
+  "selenium_test/Test_Selenium.py::Test_Selenium::test_least_pulish",
+  "selenium_test/Test_Selenium.py::Test_Selenium::test_hogwarts",
+  "selenium_test/Test_Selenium.py::Test_Selenium::test_login_with_error_keyword",
+  "selenium_test/Test_Selenium.py::Test_Selenium::test_testwomen"
+]

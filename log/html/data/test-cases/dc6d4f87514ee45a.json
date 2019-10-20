@@ -1,0 +1,91 @@
+{
+  "uid" : "dc6d4f87514ee45a",
+  "name" : "test_login_with_error_keyword",
+  "fullName" : "selenium_test.Test_Selenium.Test_Selenium#test_login_with_error_keyword",
+  "historyId" : "faf5c76c15c8012fbf7e09b8d5afb48f",
+  "time" : {
+    "start" : 1569159575432,
+    "stop" : 1569159577117,
+    "duration" : 1685
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '帐号或密码错误。' in '访问被拒绝，你可能没有权限或未登录。'",
+  "statusTrace" : "self = <selenium_test.Test_Selenium.Test_Selenium object at 0x03A238B0>\n\n    def test_login_with_error_keyword(self):\n        self.test_hogwarts()\n        self.driver.find_element(By.CSS_SELECTOR,\"input[type='email']\").send_keys(\"123456\")\n        self.driver.find_element(By.CSS_SELECTOR, \"input[type='password']\").send_keys(\"123456\")\n        self.driver.find_element(By.CSS_SELECTOR, \"input[type='submit']\").click()\n        str = self.driver.find_element(By.CSS_SELECTOR, \"div[class='alert alert-danger']\").text\n>       assert \"帐号或密码错误。\" in str\nE       AssertionError: assert '帐号或密码错误。' in '访问被拒绝，你可能没有权限或未登录。'\n\nselenium_test\\Test_Selenium.py:48: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1569159571355,
+      "stop" : 1569159575431,
+      "duration" : 4076
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1569159577124,
+      "stop" : 1569159584709,
+      "duration" : 7585
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "selenium_test"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Selenium"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Selenium"
+  }, {
+    "name" : "host",
+    "value" : "BF-201801061158"
+  }, {
+    "name" : "thread",
+    "value" : "916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "selenium_test.Test_Selenium"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dc6d4f87514ee45a.json",
+  "parameterValues" : [ ]
+}

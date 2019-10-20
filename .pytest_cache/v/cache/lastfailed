@@ -1,0 +1,4 @@
+{
+  "selenium_test/Test_Selenium.py::Test_Selenium::test_KeyWord": true,
+  "selenium_test/Test_Selenium.py::Test_Selenium::test_login_with_error_keyword": true
+}

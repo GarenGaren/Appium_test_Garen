@@ -1,0 +1,101 @@
+{
+  "uid" : "a499e677c93d6047",
+  "name" : "test_testwomen",
+  "fullName" : "selenium_test.Test_Selenium.Test_Selenium#test_testwomen",
+  "historyId" : "46ddb1a4389e8fc513279eb835de92f5",
+  "time" : {
+    "start" : 1569159588853,
+    "stop" : 1569159590940,
+    "duration" : 2087
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1569159584748,
+      "stop" : 1569159588852,
+      "duration" : 4104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f3f1ea26058de030",
+      "name" : "stdout",
+      "source" : "f3f1ea26058de030.txt",
+      "type" : "text/plain",
+      "size" : 36
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1569159590941,
+      "stop" : 1569159598118,
+      "duration" : 7177
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "selenium_test"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Selenium"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Selenium"
+  }, {
+    "name" : "host",
+    "value" : "BF-201801061158"
+  }, {
+    "name" : "thread",
+    "value" : "916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "selenium_test.Test_Selenium"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a499e677c93d6047.json",
+  "parameterValues" : [ ]
+}

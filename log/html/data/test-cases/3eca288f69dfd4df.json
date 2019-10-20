@@ -1,0 +1,85 @@
+{
+  "uid" : "3eca288f69dfd4df",
+  "name" : "test_hogwarts",
+  "fullName" : "selenium_test.Test_Selenium.Test_Selenium#test_hogwarts",
+  "historyId" : "e4a39c540c3277c0a88140940663a5c1",
+  "time" : {
+    "start" : 1569159562198,
+    "stop" : 1569159563688,
+    "duration" : 1490
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1569159558209,
+      "stop" : 1569159562197,
+      "duration" : 3988
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1569159563689,
+      "stop" : 1569159571352,
+      "duration" : 7663
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "selenium_test"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Selenium"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Selenium"
+  }, {
+    "name" : "host",
+    "value" : "BF-201801061158"
+  }, {
+    "name" : "thread",
+    "value" : "916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "selenium_test.Test_Selenium"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3eca288f69dfd4df.json",
+  "parameterValues" : [ ]
+}
