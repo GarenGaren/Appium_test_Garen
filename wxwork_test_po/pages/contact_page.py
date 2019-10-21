@@ -5,9 +5,6 @@ from wxwork_test_po.pages.profile_page import profile_page
 
 
 class contact_page(base_page):
-    def __init__(self, driver):
-        self.driver = driver
-
     _click = (By.CSS_SELECTOR, ".js_add_member")
     _username = (By.CSS_SELECTOR, "input[id = 'username']")
     _id = (By.CSS_SELECTOR, "input[id = 'memberAdd_acctid']")
@@ -15,10 +12,11 @@ class contact_page(base_page):
     _save = (By.CSS_SELECTOR, "a[class = 'qui_btn ww_btn js_btn_save']")
     _someone = (By.CSS_SELECTOR, "input[id='memberSearchInput']")
 
-    def __init__(self, driver):
-        self.driver = driver
+    def __init__(self, work):
+        self.driver = work.driver
 
-    def test_add_people(self, username, id, email):
+
+    def add_people(self, username, id, email):
         str = "https:////work.weixin.qq.com/wework_admin/frame#contacts"
         self.driver.get(str)
         self.driver.find_elements(*self._click)[1].click()

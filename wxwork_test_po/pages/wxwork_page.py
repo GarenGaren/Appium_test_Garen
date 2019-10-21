@@ -30,8 +30,8 @@ class wxwork_page(base_page):
             self.driver.add_cookie({"name":k,"value":v})
         self.driver.get(str)
 
-    def pass1(self):
-        pass
+    def quit(self):
+        self.driver.quit()
 
     def go_to_contact_page(self):
         self.driver.find_element(By.CSS_SELECTOR, "a[id='menu_contacts']").click()
