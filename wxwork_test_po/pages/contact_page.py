@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-from wxwork_test_po.base_page import base_page
-from wxwork_test_po.profile_page import profile_page
+from wxwork_test_po.pages.base_page import base_page
+from wxwork_test_po.pages.profile_page import profile_page
 
 
 class contact_page(base_page):

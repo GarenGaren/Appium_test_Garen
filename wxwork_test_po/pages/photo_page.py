@@ -3,7 +3,7 @@ from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from wxwork_test_po.wxwork_page import wxwork_page
+from wxwork_test_po.pages.wxwork_page import wxwork_page
 
 
 class photo_page(wxwork_page):
