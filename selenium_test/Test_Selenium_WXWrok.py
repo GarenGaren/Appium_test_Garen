@@ -61,18 +61,20 @@ class Test_Selenium():
         """
         str = 'https://work.weixin.qq.com/wework_admin/loginpage_wx?from=myhome_baidu'
         cookie = {
-            "wwrtx.d2st": "a5804272",
-            "wwrtx.sid": "7KA9s8hAVXE1pxpSEHGCREZ2s1SF-66cAWrO9p-xL6ubMH3AgxRu9_iRNmzsP_SS",
-            "wwrtx.ltype": "1",
-            "wxpay.corpid": "1970325076090726",
+            "wwrtx.i18n_lan": "zh",
+            "wwrtx.ref": "direct",
+            "wwrtx.refid": "302078651593677",
+            "wwrtx.d2st": "a7914693",
+            "wwrtx.sid": "7KA9s8hAVXE1pxpSEHGCRIH1WXEH11DEx-26EmH3UG59-GUAZEr-Aoj_KoIGnDOB",
+            "wwrtx.ltype":"1",
+            "wxpay.corpid":"1970325076090726",
             "wxpay.vid": "1688854031826396",
-            "wwrtx.vst":"mwrfRdm9H_bPE_EauvGeuPgqV89uOXYHxi7TymJAnKstHQmt35P-HM4RLvhR-LXIkj71rZ8tseEkEckpaX-tItSHpMsCXHx8vlJubQv6pFDpekVrcHeG0M67RjIxe9WY2lysLa2bBKsqXxUBRsKnfdqMT84ciodQg32QHYFwKZwgmzYTKguXTtEJSS9uSYuoW7E5aqehTpGv_VP63K1m9ohQ2hOC-2PGu03fsPkcYfD9DatFmXQmYkcHMStlGsHsEIjjetpSMXWlXe-2qykSmg",
-            "wwrtx.vid":"1688854031826396",
-            "wwrtx.logined": "true",
-            "_gat": "1"
+            "wwrtx.vst": "N0ecMm4G0EVzEq9beV5zO1KhcGktrNeWSP8Vx5cR7v1yDbO5EQcXpMUyg6SemQyK2T6cuI289QAo2E-TsolG1NS65xALVpZLHUcAleya4YjCwfzU1Lg91nxrDnrPlCXTTKbRpPS85KhS2ImEbzh_OGQpLekFsK1Xly8fyjOECde4GgmihsbUm_24dcYyg9cWgqcSyKE6__49AeqCS9FSUyDl3fJH92ojyVs20rC_9JuqZ5nGKvjMysaV86h35zKUWTpLUcUW73zfbLao2AmUBA",
+            "wwrtx.logined": "1"
+
         }
         self.driver.get(str)
-        time.sleep(5)
+        time.sleep(2)
         '''添加cookie'''
         for k,v in cookie.items():
             self.driver.add_cookie({"name":k,"value":v})
