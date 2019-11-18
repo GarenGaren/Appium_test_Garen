@@ -25,6 +25,7 @@ class MainPage():
         # self.driver.find_element_by_id("name").click()
         return SearchPage(self.driver)
 
+
     def go_to_chose_page(self):
         self.driver.find_element_by_xpath("//*[@text='自选']").click()
         return ChosePage(self.driver)
